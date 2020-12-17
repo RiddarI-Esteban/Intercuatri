@@ -7,20 +7,24 @@ type: String,
 required: [true, 'Ingrese si nombre']
     },
 
+    
     primer_apellido:{
 type: String,
 required: [true, 'Ingrese su primer apellido']
     },
+
 
     segundo_apellido:{
 type: String,
 required: [true, 'Ingrese su segundo apellido']
     },
 
+
     edad:{
 type: Number,
 required: [true, 'Ingrese su edad']
     },
+
 
     curp:{
 type: String,
@@ -28,10 +32,12 @@ required: [true, 'Ingrese su CURP'],
 unique: true
     },
 
+
     telefono:{
 type: Number,
 required: [true, 'Ingrese su telefono']
     },
+
 
     mail:{
 type: String,
