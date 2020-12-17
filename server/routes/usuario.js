@@ -6,6 +6,8 @@ const Usuario = require('../models/usuario');
 app.get('/usuario', (req, res) => {
 
 
+
+    
 Usuario.find({})
 .exec((err, usuarios) => {
 if(err){
