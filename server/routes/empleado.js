@@ -27,6 +27,8 @@ empleados
     });
 });
 
+
+
 app.post('/empleado',(req, res)=>{
 let body = req.body;
 let emp = new Empleado({
