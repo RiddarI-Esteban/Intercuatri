@@ -71,6 +71,8 @@ depDB
     });
 });
 
+
+
 app.delete('/departamento/:id', function(req, res){
 let id = req.params.id;
     
